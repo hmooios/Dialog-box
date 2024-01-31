@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     lazy var dialogView : CustomDialogView = {
         let view = CustomDialogView()
         view.delegate = self
+        view.messageLabel.text = "Hello World"
         view.isHidden = true
         view.translatesAutoresizingMaskIntoConstraints = false
         return view

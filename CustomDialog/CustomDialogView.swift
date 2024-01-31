@@ -13,7 +13,7 @@ class CustomDialogView: UIView {
 
     lazy var messageLabel:UILabel = {
         let label = UILabel()
-        label.text = "Hello world"
+       // label.text = "Hello world"
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -46,7 +46,7 @@ class CustomDialogView: UIView {
         addSubview(messageLabel)
         addSubview(okButton)
         
-        messageLabel.topAnchor.constraint(equalTo: topAnchor, constant: 20).isActive = true
+           messageLabel.topAnchor.constraint(equalTo: topAnchor, constant: 20).isActive = true
            messageLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
            messageLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20).isActive = true
            
