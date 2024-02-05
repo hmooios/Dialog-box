@@ -44,8 +44,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpUI()
-        calculateView.calculationResultHandler = { number1, number2 in
-                   print("Result of adding \(number1) and \(number2) is \(number1 + number2)")
+        calculateView.calculationResultHandler = {  result in
+                   print("Result of adding is \(result)")
                }
     }
     
@@ -95,9 +95,6 @@ class ViewController: UIViewController {
         print("showCalculateButtonTapped from ViewController")
         calculateView.isHidden = false
     }
-    
-    
-
 }
 
 extension ViewController: CustomDialogViewDelegate{

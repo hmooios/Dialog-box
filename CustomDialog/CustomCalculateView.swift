@@ -9,8 +9,8 @@ import UIKit
 
 class CustomCalculateView: UIView {
     
-    var calculationResultHandler: ((Int, Int) -> Void)?
-    
+    var calculationResultHandler: ((Int) -> Void)?
+
     lazy var textfield1: UITextField = {
         let textfield = UITextField()
         textfield.placeholder = "Enter a number"
@@ -80,8 +80,10 @@ class CustomCalculateView: UIView {
     @objc private func addButtonTapped() {
             if let number1 = Int(textfield1.text ?? ""), let number2 = Int(textfield2.text ?? "") {
                 let result = number1 + number2
-                calculationResultHandler?(number1, number2)
+                calculationResultHandler?(result)
+                isHidden = true
             } else {
+                isHidden = true
                 print("Invalid input. Please enter valid integers in both fields.")
             }
         }
