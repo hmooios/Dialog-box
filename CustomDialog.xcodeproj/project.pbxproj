@@ -15,6 +15,7 @@
 		CEB8195E2B690278006EFBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8195C2B690278006EFBB2 /* LaunchScreen.storyboard */; };
 		CEB819662B691044006EFBB2 /* CustomDialogViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB819652B691044006EFBB2 /* CustomDialogViewDelegate.swift */; };
 		CEB819682B6910DE006EFBB2 /* CustomDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB819672B6910DE006EFBB2 /* CustomDialogView.swift */; };
+		CEBA86F92B70C3EE007D81A4 /* CustomCalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA86F82B70C3EE007D81A4 /* CustomCalculateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CEB8195F2B690278006EFBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEB819652B691044006EFBB2 /* CustomDialogViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogViewDelegate.swift; sourceTree = "<group>"; };
 		CEB819672B6910DE006EFBB2 /* CustomDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogView.swift; sourceTree = "<group>"; };
+		CEBA86F82B70C3EE007D81A4 /* CustomCalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalculateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				CEB819552B690275006EFBB2 /* ViewController.swift */,
 				CEB819652B691044006EFBB2 /* CustomDialogViewDelegate.swift */,
 				CEB819672B6910DE006EFBB2 /* CustomDialogView.swift */,
+				CEBA86F82B70C3EE007D81A4 /* CustomCalculateView.swift */,
 				CEB819572B690275006EFBB2 /* Main.storyboard */,
 				CEB8195A2B690278006EFBB2 /* Assets.xcassets */,
 				CEB8195C2B690278006EFBB2 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBA86F92B70C3EE007D81A4 /* CustomCalculateView.swift in Sources */,
 				CEB819562B690275006EFBB2 /* ViewController.swift in Sources */,
 				CEB819522B690275006EFBB2 /* AppDelegate.swift in Sources */,
 				CEB819662B691044006EFBB2 /* CustomDialogViewDelegate.swift in Sources */,

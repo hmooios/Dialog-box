@@ -13,7 +13,6 @@ class CustomDialogView: UIView {
 
     lazy var messageLabel:UILabel = {
         let label = UILabel()
-       // label.text = "Hello world"
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
